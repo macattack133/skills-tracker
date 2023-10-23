@@ -30,11 +30,10 @@ public String renderForm() {
             "<body" +
             "<form action='submit' method = 'post' model attribute= 'select'>" +
             "<label for = 'name'> Choose your favorite language: </label>" +
-            "<select name='cars' id='cars'>" +
+            "<select name='Languages' id='Languages'>" +
+            "<option value ='Python'>Python</option>" +
             "<option value='Java'>Java</option>" +
             "<option value='JavaScript'>JavaScript</option>" +
-            "<option value='mercedes'>Mercedes</option>" +
-            "<option value='audi'>Audi</option>" +
             "</select>" +
             "</form>" +
             "</body>" +
